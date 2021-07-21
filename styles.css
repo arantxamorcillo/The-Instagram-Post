@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(177, 163, 192);
+}
+
+
+.card {
+    margin:32px auto auto auto;
+    width: 614px;
+    height: auto;
+    background-color: white;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 8px;
+    
+}
+
+.header {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    
+  }
+
+.autor{
+    width: 100%;
+    margin-left: 8px;
+}
+
+i:before {
+    font-size: 32px;
+}
+
+p{
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.actions{
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+#leftActions{
+    width: 100%;
+}
+
+#names{
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.likes{
+    display: flex;
+    padding: 16px;
+}
+
+.publication{
+   padding: 16px;
+}
